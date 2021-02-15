@@ -1,0 +1,35 @@
+<mat-card>
+    <mat-card-content>
+        <form [formGroup]="myForm" autocomplete="off" (ngSubmit)="handleSubmit($event)">
+            <h2 mat-dialog-title>Login</h2>
+            <mat-dialog-content>
+                <mat-form-field>
+                    <input type="text" matInput placeholder="Username" formControlName="username" required>
+                    <mat-error *ngIf="myForm.controls.username.invalid">
+                        {{ getValidationMessage(myForm, 'username')}}
+                    </mat-error>
+                </mat-form-field>
+
+                <mat-form-field>
+                    <input type="password" matInput placeholder="Password" formControlName="password" required>
+                    <mat-error *ngIf="myForm.controls.password.invalid">
+                        {{ getValidationMessage(myForm, 'password')}}
+                    </mat-error>
+                </mat-form-field>
+
+                <span *ngIf="!!error" class="error-msg">{{error}}</span>
+            </mat-dialog-content>
+
+            <mat-dialog-actions>
+                <button mat-raised-button (click)="reset()">
+                    Reset
+                </button>
+                <button mat-raised-button color="primary" type="submit" [disabled]="myForm.invalid || !myForm.dirty"
+                    (click)="submit()">
+                    Login
+                </button>
+            </mat-dialog-actions>
+
+        </form>
+    </mat-card-content>
+</mat-card>

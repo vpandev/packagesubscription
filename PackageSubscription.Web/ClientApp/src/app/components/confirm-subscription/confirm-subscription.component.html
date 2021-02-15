@@ -1,0 +1,53 @@
+<form [formGroup]="myForm" autocomplete="off" *ngIf="showForm">
+
+    <h2 mat-dialog-title>Confirm subscription</h2>
+
+    <mat-dialog-content>
+        <mat-form-field>
+            <input type="text" matInput placeholder="Username" formControlName="username" readonly>
+            <mat-error *ngIf="myForm.controls.username.invalid">
+                {{ getValidationMessage(myForm, 'username')}}
+            </mat-error>
+        </mat-form-field>
+        <mat-form-field>
+            <input type="text" matInput placeholder="Package" formControlName="packageName" readonly>
+            <mat-error *ngIf="myForm.controls.packageName.invalid">
+                {{ getValidationMessage(myForm, 'packageName')}}
+            </mat-error>
+        </mat-form-field>
+
+        <mat-form-field>
+            <input type="text" matInput placeholder="Subscription type" formControlName="subscriptionTypName" readonly>
+            <mat-error *ngIf="myForm.controls.subscriptionTypName.invalid">
+                {{ getValidationMessage(myForm, 'subscriptionTypName')}}
+            </mat-error>
+        </mat-form-field>
+
+        <mat-form-field>
+            <input type="text" matInput placeholder="Price" formControlName="price" readonly>
+            <mat-error *ngIf="myForm.controls.price.invalid">
+                {{ getValidationMessage(myForm, 'price')}}
+            </mat-error>
+        </mat-form-field>
+
+        <mat-form-field>
+            <input type="text" matInput placeholder="Amount with VAT" formControlName="amount" readonly>
+            <mat-error *ngIf="myForm.controls.amount.invalid">
+                {{ getValidationMessage(myForm, 'amount')}}
+            </mat-error>
+        </mat-form-field>
+
+        <!--id-->
+        <input type="hidden" formControlName="id">
+    </mat-dialog-content>
+
+    <mat-dialog-actions>
+        <button mat-raised-button (click)="cancel()">
+            Cancel
+        </button>
+        <button mat-raised-button color="primary" type="submit" [disabled]="myForm.invalid" (click)="confirm()">
+            Confirm
+        </button>
+    </mat-dialog-actions>
+
+</form>

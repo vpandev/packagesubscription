@@ -1,0 +1,33 @@
+2021-02-14 18:30:19.531 +01:00 [Error]     ERROR in src/app/components/payment-success/payment-success.component.html:1:41 - error TS2339: Property 'model' does not exist on type 'PaymentSuccessComponent'.
+    
+    1 <mat-card class="example-card" *ngIf="!!model">
+                                              ~~~~~
+    
+      src/app/components/payment-success/payment-success.component.ts:5:16
+        5   templateUrl: './payment-success.component.html',
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Error occurs in the template of component PaymentSuccessComponent.
+    
+
+2021-02-14 18:30:22.561 +01:00 [Error]     ERROR in src/app/components/payment-success/payment-success.component.html:1:41 - error TS2339: Property 'model' does not exist on type 'PaymentSuccessComponent'.
+    
+    1 <mat-card class="example-card" *ngIf="!!model">
+                                              ~~~~~
+    
+      src/app/components/payment-success/payment-success.component.ts:5:16
+        5   templateUrl: './payment-success.component.html',
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Error occurs in the template of component PaymentSuccessComponent.
+    
+
+2021-02-14 18:30:25.214 +01:00 [Error]     ERROR in src/app/components/payment-success/payment-success.component.html:1:41 - error TS2339: Property 'model' does not exist on type 'PaymentSuccessComponent'.
+    
+    1 <mat-card class="example-card" *ngIf="!!model">
+                                              ~~~~~
+    
+      src/app/components/payment-success/payment-success.component.ts:5:16
+        5   templateUrl: './payment-success.component.html',
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Error occurs in the template of component PaymentSuccessComponent.
+    
+

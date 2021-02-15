@@ -1,0 +1,56 @@
+2021-02-15 10:14:40.611 +01:00 [Error] ERROR in ./src/app/components/packages/packages.component.ts
+Module build failed (from ./node_modules/@ngtools/webpack/src/index.js):
+Error: ENOENT: no such file or directory, open 'C:\Projects\.NET Core\PackageSubscription\PackageSubscription.Web\ClientApp\src\app\components\packages\packages.component.ts'
+    at Object.openSync (fs.js:458:3)
+    at Object.readFileSync (fs.js:360:35)
+    at Storage.provideSync (C:\Projects\.NET Core\PackageSubscription\PackageSubscription.Web\ClientApp\node_modules\enhanced-resolve\lib\CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (C:\Projects\.NET Core\PackageSubscription\PackageSubscription.Web\ClientApp\node_modules\enhanced-resolve\lib\CachedInputFileSystem.js:289:32)
+    at Observable._subscribe (C:\Projects\.NET Core\PackageSubscription\PackageSubscription.Web\ClientApp\node_modules\@ngtools\webpack\src\webpack-input-host.js:35:51)
+    at Observable._trySubscribe (C:\Projects\.NET Core\PackageSubscription\PackageSubscription.Web\ClientApp\node_modules\@ngtools\webpack\node_modules\rxjs\internal\Observable.js:44:25)
+    at Observable.subscribe (C:\Projects\.NET Core\PackageSubscription\PackageSubscription.Web\ClientApp\node_modules\@ngtools\webpack\node_modules\rxjs\internal\Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (C:\Projects\.NET Core\PackageSubscription\PackageSubscription.Web\ClientApp\node_modules\@angular-devkit\core\src\virtual-fs\host\sync.js:22:20)
+    at SyncDelegateHost.read (C:\Projects\.NET Core\PackageSubscription\PackageSubscription.Web\ClientApp\node_modules\@angular-devkit\core\src\virtual-fs\host\sync.js:49:21)
+    at WebpackCompilerHost.readFileBuffer (C:\Projects\.NET Core\PackageSubscription\PackageSubscription.Web\ClientApp\node_modules\@ngtools\webpack\src\compiler_host.js:165:44)
+    at VirtualFileSystemDecorator.readFile (C:\Projects\.NET Core\PackageSubscription\PackageSubscription.Web\ClientApp\node_modules\@ngtools\webpack\src\virtual_file_system_decorator.js:42:54)
+
+2021-02-15 10:15:03.946 +01:00 [Error]     at processResource (C:\Projects\.NET Core\PackageSubscription\PackageSubscription.Web\ClientApp\node_modules\loader-runner\lib\LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (C:\Projects\.NET Core\PackageSubscription\PackageSubscription.Web\ClientApp\node_modules\loader-runner\lib\LoaderRunner.js:158:10)
+    at iteratePitchingLoaders (C:\Projects\.NET Core\PackageSubscription\PackageSubscription.Web\ClientApp\node_modules\loader-runner\lib\LoaderRunner.js:165:10)
+    at C:\Projects\.NET Core\PackageSubscription\PackageSubscription.Web\ClientApp\node_modules\loader-runner\lib\LoaderRunner.js:176:18
+    at loadLoader (C:\Projects\.NET Core\PackageSubscription\PackageSubscription.Web\ClientApp\node_modules\loader-runner\lib\loadLoader.js:47:3)
+
+
+2021-02-15 10:15:03.947 +01:00 [Error] ERROR in ./src/app/components/packages/packages.component.ts
+Module build failed (from ./node_modules/@ngtools/webpack/src/index.js):
+Error: ENOENT: no such file or directory, open 'C:\Projects\.NET Core\PackageSubscription\PackageSubscription.Web\ClientApp\src\app\components\packages\packages.component.ts'
+    at Object.openSync (fs.js:458:3)
+    at Object.readFileSync (fs.js:360:35)
+    at Storage.provideSync (C:\Projects\.NET Core\PackageSubscription\PackageSubscription.Web\ClientApp\node_modules\enhanced-resolve\lib\CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (C:\Projects\.NET Core\PackageSubscription\PackageSubscription.Web\ClientApp\node_modules\enhanced-resolve\lib\CachedInputFileSystem.js:289:32)
+    at Observable._subscribe (C:\Projects\.NET Core\PackageSubscription\PackageSubscription.Web\ClientApp\node_modules\@ngtools\webpack\src\webpack-input-host.js:35:51)
+    at Observable._trySubscribe (C:\Projects\.NET Core\PackageSubscription\PackageSubscription.Web\ClientApp\node_modules\@ngtools\webpack\node_modules\rxjs\internal\Observable.js:44:25)
+    at Observable.subscribe (C:\Projects\.NET Core\PackageSubscription\PackageSubscription.Web\ClientApp\node_modules\@ngtools\webpack\node_modules\rxjs\internal\Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (C:\Projects\.NET Core\PackageSubscription\PackageSubscription.Web\ClientApp\node_modules\@angular-devkit\core\src\virtual-fs\host\sync.js:22:20)
+    at SyncDelegateHost.read (C:\Projects\.NET Core\PackageSubscription\PackageSubscription.Web\ClientApp\node_modules\@angular-devkit\core\src\virtual-fs\host\sync.js:49:21)
+    at WebpackCompilerHost.readFileBuffer (C:\Projects\.NET Core\PackageSubscription\PackageSubscription.Web\ClientApp\node_modules\@ngtools\webpack\src\compiler_host.js:165:44)
+    at VirtualFileSystemDecorator.readFile (C:\Projects\.NET Core\PackageSubscription\PackageSubscription.Web\ClientApp\node_modules\@ngtools\webpack\src\virtual_file_system_decorator.js:42:54)
+
+2021-02-15 10:15:11.442 +01:00 [Error]     at processResource (C:\Projects\.NET Core\PackageSubscription\PackageSubscription.Web\ClientApp\node_modules\loader-runner\lib\LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (C:\Projects\.NET Core\PackageSubscription\PackageSubscription.Web\ClientApp\node_modules\loader-runner\lib\LoaderRunner.js:158:10)
+    at iteratePitchingLoaders (C:\Projects\.NET Core\PackageSubscription\PackageSubscription.Web\ClientApp\node_modules\loader-runner\lib\LoaderRunner.js:165:10)
+    at C:\Projects\.NET Core\PackageSubscription\PackageSubscription.Web\ClientApp\node_modules\loader-runner\lib\LoaderRunner.js:176:18
+    at loadLoader (C:\Projects\.NET Core\PackageSubscription\PackageSubscription.Web\ClientApp\node_modules\loader-runner\lib\loadLoader.js:47:3)
+    
+
+2021-02-15 10:15:11.442 +01:00 [Error]     ERROR in src/app/app.module.ts:22:5 - error TS2304: Cannot find name 'PackagesComponent'.
+    
+    22     PackagesComponent,
+           ~~~~~~~~~~~~~~~~~
+    
+
+2021-02-15 10:15:15.948 +01:00 [Error]     ERROR in src/app/app.module.ts:22:5 - error TS2304: Cannot find name 'PackagesComponent'.
+    
+    22     PackagesComponent,
+           ~~~~~~~~~~~~~~~~~
+    
+

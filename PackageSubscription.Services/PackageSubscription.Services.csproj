@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="PayPal" Version="1.9.1" />
+    <PackageReference Include="PayPalCheckoutSdk" Version="1.0.3" />
+    <PackageReference Include="PayPalHttp" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PackageSubscription.Shared\PackageSubscription.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

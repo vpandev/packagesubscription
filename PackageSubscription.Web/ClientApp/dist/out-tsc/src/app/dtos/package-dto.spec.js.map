@@ -1,0 +1,1 @@
+{"version":3,"file":"package-dto.spec.js","sourceRoot":"","sources":["../../../../../src/app/dtos/package-dto.spec.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,UAAU,EAAE,MAAM,eAAe,CAAC;AAE3C,QAAQ,CAAC,YAAY,EAAE,GAAG,EAAE;IAC1B,EAAE,CAAC,2BAA2B,EAAE,GAAG,EAAE;QACnC,MAAM,CAAC,IAAI,UAAU,EAAE,CAAC,CAAC,UAAU,EAAE,CAAC;IACxC,CAAC,CAAC,CAAC;AACL,CAAC,CAAC,CAAC"}
