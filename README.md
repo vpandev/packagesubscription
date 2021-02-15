@@ -1,5 +1,12 @@
 Package Subscription App with PayPal payment.
 
+1. Download solution
+2. Open ClientApp
+  - run "npm install"
+  - run "ng build --extractCss"
+3. Run web application from VS
+
+
 Users for login:
 - Username = "vpandev", Password = "P@ssw0rd"
 - Username = "user1", Password = "P@ssw0rd" 
